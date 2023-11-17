@@ -1,5 +1,9 @@
+/*imports*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+
 body {
   background-color: black;
+  font-family: "Raleway", sans-serif;
 }
 
 /*header*/
@@ -35,6 +39,18 @@ body {
   border-radius: 50%;
   padding: 16px;
   margin: 16px;
+}
+
+h1 {
+  background: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 46.96px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 /*fim header*/
