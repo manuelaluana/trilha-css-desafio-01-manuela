@@ -16,4 +16,25 @@ body {
   border-bottom: 1px solid #33a8db;
 }
 
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35.416%;
+  margin: 0 auto;
+  margin-top: 56px;
+  margin-bottom: 75px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 268px;
+  height: 268px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  padding: 16px;
+  margin: 16px;
+}
+
 /*fim header*/
