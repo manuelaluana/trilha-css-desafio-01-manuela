@@ -62,4 +62,17 @@ h1 {
   margin-bottom: 24px;
 }
 
+.banner-content button {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18.78px;
+  color: #31a8dd;
+  border: 2px solid white;
+  border-image: linear-gradient(180deg, #3ba1cd 0%, #1572b7 100%) 1;
+  background-color: transparent;
+  padding: 19px 46px;
+  letter-spacing: 2px;
+}
+
 /*fim header*/
