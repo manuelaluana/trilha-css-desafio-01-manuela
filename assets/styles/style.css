@@ -1,15 +1,23 @@
 /*imports*/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
 
+/*general*/
+
 body {
   background-color: black;
   font-family: "Raleway", sans-serif;
 }
 
-/*header*/
-.banner {
+.banner,
+main {
   width: 100%;
   height: 605px;
+}
+
+/**/
+
+/*header*/
+.banner {
   background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.6),
@@ -76,3 +84,23 @@ h1 {
 }
 
 /*fim header*/
+
+/*section course-content*/
+
+#course-content {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 118px;
+  margin-bottom: 90px;
+}
+
+#course-content h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.19em;
+  color: #33a8db;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*fim course-content*/
