@@ -205,4 +205,11 @@ h1 {
   margin-top: 76px;
   margin-bottom: 32px;
 }
+
+#professional-challenges img[title="Homem lendo depoimentos em um tablet"] {
+  width: 100%;
+  max-width: 659px;
+  height: 429px;
+  margin: 0 auto;
+}
 /*fim professional-challenges*/
