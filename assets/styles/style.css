@@ -120,8 +120,7 @@ h1 {
 }
 
 #course-content p,
-.modules-list,
-#professional-challenges {
+.modules-list {
   width: 55%;
   margin: 0 auto;
 }
@@ -193,17 +192,20 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border-bottom: 1px solid #33a8db;
 }
 
 #professional-challenges h2 {
+  width: 55%;
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
   letter-spacing: 0.19em;
   text-align: center;
   color: #33a8db;
-  margin-top: 76px;
-  margin-bottom: 32px;
+  padding-top: 76px;
+  padding-bottom: 32px;
+  margin: 0 auto;
 }
 
 #professional-challenges img[title="Homem lendo depoimentos em um tablet"] {
@@ -211,5 +213,17 @@ h1 {
   max-width: 659px;
   height: 429px;
   margin: 0 auto;
+}
+
+#professional-challenges p {
+  max-width: 792px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 91px;
 }
 /*fim professional-challenges*/
