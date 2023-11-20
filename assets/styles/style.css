@@ -1,4 +1,4 @@
-/*imports*/
+/* imports*/
 @import "./reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
 
@@ -11,12 +11,12 @@ body {
 
 .banner,
 main,
-#transform-world {
+#transform-world,
+footer {
   width: 100%;
 }
 
-.banner,
-main {
+.banner {
   height: 605px;
 }
 
@@ -44,7 +44,7 @@ main {
   margin-bottom: 75px;
 }
 
-.logo {
+.banner-content .logo {
   display: flex;
   justify-content: center;
   width: 268px;
@@ -165,9 +165,15 @@ h1 {
 /*section transform-world*/
 #transform-world {
   height: 363px;
+  background-image: url("../images/woman-code.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-bottom: 1px solid #33a8db;
 }
 
 #transform-world p {
+  position: absolute;
   max-width: 244px;
   font-weight: 900;
   font-size: 40px;
@@ -175,7 +181,8 @@ h1 {
   color: #ffffff;
   text-transform: lowercase;
   text-shadow: 3px 2px 0px #33a8db;
+  z-index: 1;
 
   margin: 77px 0px 55px 198px;
 }
-/*fim transform-world*/
+/*fim transform-world */
