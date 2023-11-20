@@ -86,7 +86,7 @@ h1 {
   border-image: linear-gradient(180deg, #3ba1cd 0%, #1572b7 100%) 1;
   background-color: transparent;
   padding: 19px 46px;
-  letter-spacing: 2px;
+  letter-spacing: 0.21em;
   cursor: pointer;
 }
 
@@ -120,7 +120,8 @@ h1 {
 }
 
 #course-content p,
-.modules-list {
+.modules-list,
+#professional-challenges {
   width: 55%;
   margin: 0 auto;
 }
@@ -186,3 +187,22 @@ h1 {
   margin: 77px 0px 55px 198px;
 }
 /*fim transform-world */
+
+/*section professional-challenges*/
+#professional-challenges {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#professional-challenges h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.19em;
+  text-align: center;
+  color: #33a8db;
+  margin-top: 76px;
+  margin-bottom: 32px;
+}
+/*fim professional-challenges*/
